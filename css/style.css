@@ -1,0 +1,286 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif; */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.top_header {
+    background-color: #d7aa21;
+}
+
+.top_header p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF !important;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
+}
+
+
+
+
+
+
+/* ==================== banner_part css ==================== */
+
+.top_part {
+    background-image: url(../images/form\ bg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 50px 0;
+    position: relative;
+    z-index: 99;
+}
+
+.top_part::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/winter-3084963_1280-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 25%;
+    opacity: .5;
+    z-index: -1;
+}
+
+.top_part::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: .7;
+    z-index: -11;
+}
+
+
+.logo img {
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.top_content {
+    padding: 35px 0;
+}
+
+.top_content {
+    text-align: center;
+}
+
+.top_content p {
+
+    color: #666;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.top_content h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+
+/* ==================== form part css ==================== */
+
+
+
+.fild {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_fild {
+    width: 48%;
+}
+
+.last_fild {
+    width: 48%;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    color: #333;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #91c1cf;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    float: none;
+    line-height: 1.3;
+    margin: 18px 0 4px 0;
+    padding: 0;
+}
+
+select {
+    width: 100%;
+    padding: 5px 5px;
+    outline: none;
+    border: 1px solid #91c1cf;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 2px 0 20px 0;
+    padding: 2px 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #91c1cf;
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
+    font-family: Open Sans,Arial,sans-serif;
+    width: 30%;
+    background: #91c1cf;;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center !important;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    border: 2px solid #91c1cf;;
+    transition: .5s all ease-in-out;
+}
+
+input[type="radio"] {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    margin: 0 10px 0 3px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: fit-content;
+
+}
+.appuse{
+   display: flex;
+   align-items: center;
+}
+.appuse label{
+    margin: 0;
+    font-weight: 400;
+ }
+ 
+
+
+input[type="submit"]:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: transparent;
+    color: #2d3a3e;
+    border: 2px solid #ffffff;
+}
+
+.form span {
+    color: red;
+}
+.form h3 {
+    font-size: 22px;
+    font-family: Open Sans,Arial,sans-serif;
+    color: #91c1cf;
+    line-height: 2em;
+    padding-top: 18px;
+    font-weight: 500;
+}
+/* ==================== footer part css ==================== */
+
+.footer_part {
+    background: #000;
+}
+
+.footer_content {}
+
+.footer_text {
+    display: none;
+    text-align: center;
+}
+
+.footer_text p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.social_media {}
+
+.social_media ul {
+    display: flex;
+    padding: 25px 10px;
+    list-style: none;
+    justify-content: center;
+}
+
+.social_media ul li {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #d9d7d7;
+    margin: 0px 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.social_media ul li a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 25px;
+}
+
+.social_media ul li:hover a i {
+    transform: rotate(360deg);
+    transition: 0.6s ease-in;
+}
